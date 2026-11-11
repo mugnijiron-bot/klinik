@@ -1,0 +1,5 @@
+# Konfigurasi minimal OpenSSL agar pembuatan kunci jalan di Windows/Laragon
+[ req ]
+default_bits = 3072
+distinguished_name = req_distinguished_name
+[ req_distinguished_name ]
